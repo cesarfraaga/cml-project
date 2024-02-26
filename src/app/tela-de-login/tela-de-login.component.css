@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Trochut:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Rationale&display=swap');
+.bg-image {
+    background-image: url(../../assets/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	
+}
+
+#field{
+	background-color: #5691ff;
+	border-radius: 20px;
+	width: 250px;
+	height: 220px;
+	opacity: 0.9;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.form-group {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.lg-font {
+	font-family: "Rationale", sans-serif;
+
+}
+.cf-ng{
+	font-weight: bold;
+	color: #f2e8e1;	;
+}
+a:hover {
+	color:crimson;
+	font-weight: bold;
+
+}
+@media screen and (max-width: 600px) {
+	#field {
+	width: 200px;
+	height: 200px;
+	}
+}
+
+#lg-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Roboto Slab", serif;
+	color: white;
+}
+.cf-link-color {
+	text-decoration: none;
+	color:white;
+}
+.cf-pw-forgot {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5px;
+}
+
+.box-lg-centralize {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	
+}
+.form-control {
+	width: 200px;
+	min-width: 50%;
+
+}
+.btn-primary {
+	margin-top: 10px;
+}
+.main-cf-rg {
+	display: flex;
+	margin-top: -12px;
+}
